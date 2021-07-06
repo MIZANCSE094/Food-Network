@@ -3,7 +3,34 @@ body
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
+    letter-spacing: 2px;
 }  
+.navbar{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a{
+    text-decoration: none;
+    padding:20px;
+    opacity: 0.8px;
+    font-size: 20px
+}
+.navbar a:hover{
+    background-color: gold;
+    opacity: 1;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+div #logo{
+   font-size: 30px;
+   margin-right: 500px;
+
+}
+
 h1
 {
     font-size: 60px;
@@ -14,15 +41,25 @@ h1
 } 
 .flexible-contant
 {
-    margin-bottom:60px;
+    margin-bottom:100px;
     display: flex;
 }
 .half-width{
     margin-top:100px;
-    margin-left: 100px;
+    margin-left:100px;
     color: gray;
     font-size: 35px;
-    width: 100%;
+    width: 50%;
+}
+.half-width img{
+    height: 400px;
+    width:100%;
+}
+#half-width img{
+    height: 600px;
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p
 {
@@ -30,8 +67,8 @@ p
 }
 .link-button
 {
-      color: wheat;
-      background-color: rgb(177, 120, 7);
+      color: rgb(31, 29, 27);
+      background-color: rgb(83, 79, 70);
       width:20px;
       padding: 20px 15px;
       border-radius: 50px;
@@ -40,6 +77,11 @@ p
       font-weight:100;
       font-size: 20px;
       margin: 5px;
+}
+.link-button:hover{
+    background-color: rgb(22, 19, 2);
+    color: rgb(64, 22, 216);
+    background-image:linear-gradient( rgb(240, 236, 233),rgb(24, 23, 23));
 }
 .pic
 {
@@ -72,11 +114,49 @@ div img{
     width:30%;
     height:400px;
 }
+.reptext h1{
+    text-align: center;
+    color:gray ;
+}
+.reptext p{
+    text-align:center;
+    color:rgb(51, 5, 5) ;
+}
+.subscriber{
+    width: 100%;
+}
+.mainpart{
+    width: 80%;
+    border: 10px solid white;
+    box-shadow: 10px 15px 20px rgb(179, 116, 116);
+    border-radius: 20px;
+    margin-left: 100px;
+    display: flex;
+    padding-right: 100px;
+}
+.kvisitor{
+    width: 40%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+.kvisitor h1{
+    font-size: 50px;
+    width: 25%;
+    text-align: center;
+}
+.kvisitor pre{
+    font-size:20px;
+   margin-right:50px;
+   text-align:center;
+}
+.subscriber{
+    padding-bottom: 40px;
+}
     .food-item
     {
     margin: 10px;
     display: flex;
-    border: 1px solid rgb(240, 231, 231);
     width: 100%;
     }
 .repitem1
@@ -102,9 +182,28 @@ div img{
     width: 100%;
     background-color: rgba(13, 12, 14, 0.87);
 }
+.foodt{
+    width: auto;
+    border-radius: 15px;
+    margin-top: 15px;
+    color:blue;
+    font-family: 'Poppins', sans-serif;
+}
+.foodt marquee{
+   font-style: oblique;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   margin-bottom: 20px;
+   word-spacing: 10px;
+   letter-spacing: 5px;
+   text-shadow: 10px 10px 20px rgba(206, 105, 84, 0.568);
+}
 .fot{
     text-align: center;
     padding: 20px;
     font-size: 25px;
     color: wheat;
+}
+.fot p{
+    font-size: 15px;
 }
